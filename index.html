@@ -1289,8 +1289,6 @@
 
     // On resize, we might change items/page, so reset page=1
     window.addEventListener("resize", () => {
-      currentPage = 1;
-      updateURLAndStorage();
       renderFestivals();
     });
 
