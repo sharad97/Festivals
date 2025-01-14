@@ -1215,11 +1215,12 @@
       }
     ];
 
+
     // ========== GLOBAL STATE ==========
     let currentPage = 1;
-    let festivalsPerPage = 6; // updated by viewport
-    let filteredFestivals = [...festivalData]; // default to all
-    let currentSearchTerm = ""; // store the search term
+    let festivalsPerPage = 6; // changes based on viewport (6–9–12)
+    let currentSearchTerm = "";
+    let filteredFestivals = [...festivalData];
 
     // ========== DOM ELEMENTS ==========
     const searchInput = document.getElementById("searchInput");
@@ -1227,6 +1228,7 @@
     const paginationControls = document.getElementById("paginationControls");
     const festivalModal = document.getElementById("festivalModal");
     const closeModalBtn = document.getElementById("closeModal");
+    const modalBackBtn = document.getElementById("modalBackBtn");
     const modalFestivalName = document.getElementById("modalFestivalName");
     const modalMonth = document.getElementById("modalMonth");
     const modalEthnicGroup = document.getElementById("modalEthnicGroup");
@@ -1234,150 +1236,113 @@
     const modalDescription = document.getElementById("modalDescription");
     const modalImages = document.getElementById("modalImages");
     const modalVideos = document.getElementById("modalVideos");
-    const modalBackBtn = document.getElementById("modalBackBtn");
+
+    // ========== ON PAGE LOAD ==========
+    window.addEventListener("load", () => {
+      // 1. Read from localStorage first
+      const savedSearch = localStorage.getItem("festivals_search") || "";
+      const savedPage = localStorage.getItem("festivals_page") || "1";
+
+      // 2. Then read from URL (which can override localStorage)
+      const urlParams = new URLSearchParams(window.location.search);
+
+      if (urlParams.has("search")) {
+        currentSearchTerm = urlParams.get("search");
+      } else {
+        currentSearchTerm = savedSearch;
+      }
+
+      if (urlParams.has("page")) {
+        const pageParam = parseInt(urlParams.get("page"), 10);
+        currentPage = isNaN(pageParam) ? parseInt(savedPage, 10) : pageParam;
+      } else {
+        currentPage = parseInt(savedPage, 10);
+      }
+
+      if (!currentPage || currentPage < 1) {
+        currentPage = 1;
+      }
+
+      // Update search box
+      searchInput.value = currentSearchTerm;
+
+      applySearchAndRender(currentSearchTerm, currentPage);
+    });
 
     // ========== EVENT LISTENERS ==========
-    searchInput.addEventListener("input", handleSearch);
+    searchInput.addEventListener("input", () => {
+      currentSearchTerm = searchInput.value.toLowerCase();
+      currentPage = 1;
+      updateURLAndStorage();
+      applySearchAndRender(currentSearchTerm, currentPage);
+    });
+
     closeModalBtn.addEventListener("click", closeModal);
     modalBackBtn.addEventListener("click", closeModal);
 
-    // If user clicks outside the modal, close it
+    // If user clicks outside the modal content
     window.addEventListener("click", (event) => {
       if (event.target === festivalModal) {
         closeModal();
       }
     });
 
-    // On resize, set page to 1, re-render
+    // On resize, we might change items/page, so reset page=1
     window.addEventListener("resize", () => {
       currentPage = 1;
-      updateURL();
+      updateURLAndStorage();
       renderFestivals();
     });
 
-    // ========== FUNCTIONS ==========
+    // ========== UTILITY: Update Both URL & LocalStorage ==========
+    function updateURLAndStorage() {
+      // 1. localStorage
+      localStorage.setItem("festivals_search", currentSearchTerm);
+      localStorage.setItem("festivals_page", currentPage.toString());
 
-    // On load, parse URL for page & search
-    window.addEventListener("load", () => {
-      const urlParams = new URLSearchParams(window.location.search);
-
-      // parse search
-      if (urlParams.has("search")) {
-        currentSearchTerm = urlParams.get("search");
-        searchInput.value = currentSearchTerm; // set the input box
-      }
-
-      // parse page
-      if (urlParams.has("page")) {
-        const pageParam = parseInt(urlParams.get("page"), 10);
-        if (!isNaN(pageParam) && pageParam > 0) {
-          currentPage = pageParam;
-        }
-      }
-
-      // Now filter and render
-      applySearchAndRender(currentSearchTerm, currentPage);
-    });
-
-    // Helper to set the URL with new search & page
-    function updateURL() {
+      // 2. URL
       const url = new URL(window.location);
       url.searchParams.set("search", currentSearchTerm);
       url.searchParams.set("page", currentPage);
-      // Use replaceState so we don't clutter history
       window.history.replaceState({}, "", url.toString());
     }
 
-    // Decide how many items per page based on screen size
-    function updateFestivalsPerPage() {
-      const width = window.innerWidth;
-      if (width < 768) {
-        festivalsPerPage = 6;   // mobile
-      } else if (width < 1024) {
-        festivalsPerPage = 9;   // tablet
-      } else {
-        festivalsPerPage = 12;  // desktop
-      }
-    }
-
-    // Ellipses pagination function
-    function getPaginationRange(currentPage, totalPages, delta = 2) {
-      // If on a very small screen, reduce delta to 1
-      if (window.innerWidth < 600) {
-        delta = 1;
-      }
-
-      const pages = [];
-      const c = Math.max(1, Math.min(currentPage, totalPages)); // safe current page
-
-      // Always include page 1
-      pages.push(1);
-
-      // Possibly add ...
-      if (c - delta > 2) {
-        pages.push("...");
-      }
-
-      // Add pages around current
-      for (let i = Math.max(2, c - delta); i <= Math.min(totalPages - 1, c + delta); i++) {
-        pages.push(i);
-      }
-
-      // Possibly add ...
-      if (c + delta < totalPages - 1) {
-        pages.push("...");
-      }
-
-      // Always include last page
-      if (totalPages > 1) {
-        pages.push(totalPages);
-      }
-
-      return pages;
-    }
-
-    // Called on search input
-    function handleSearch() {
-      currentSearchTerm = searchInput.value.toLowerCase();
-      currentPage = 1; // new search → reset to page 1
-      updateURL();
-      applySearchAndRender(currentSearchTerm, currentPage);
-    }
-
-    // Filter by searchTerm, then re-render
+    // ========== FILTERING + RENDERING ==========
     function applySearchAndRender(searchTerm, page) {
-      // Filter
-      filteredFestivals = festivalData.filter((festival) => {
-        const nameMatch = festival.name.toLowerCase().includes(searchTerm);
-        const monthMatch = festival.month.toLowerCase().includes(searchTerm);
-        const groupMatch = festival.ethnicGroup.toLowerCase().includes(searchTerm);
+      // Filter festivals
+      filteredFestivals = festivalData.filter((fest) => {
+        const nameMatch = fest.name.toLowerCase().includes(searchTerm);
+        const monthMatch = fest.month.toLowerCase().includes(searchTerm);
+        const groupMatch = fest.ethnicGroup.toLowerCase().includes(searchTerm);
         return nameMatch || monthMatch || groupMatch;
       });
 
-      currentPage = page; // set global
+      currentPage = page;
       renderFestivals();
     }
 
-    // The main render function
     function renderFestivals() {
-      // Update items per page
+      // Decide how many items per page (6–9–12)
       updateFestivalsPerPage();
 
+      // Clear old cards
       festivalList.innerHTML = "";
 
       const totalPages = Math.ceil(filteredFestivals.length / festivalsPerPage);
 
-      // Safeguard in case currentPage is out of range
-      if (currentPage > totalPages) {
-        currentPage = totalPages || 1;
-        updateURL(); // ensure the URL is consistent
+      // Keep currentPage in range
+      if (currentPage > totalPages && totalPages > 0) {
+        currentPage = totalPages;
+      } else if (totalPages === 0) {
+        currentPage = 1; // no results -> page=1
       }
 
+      // Slice
       const startIndex = (currentPage - 1) * festivalsPerPage;
       const endIndex = startIndex + festivalsPerPage;
       const festivalsToShow = filteredFestivals.slice(startIndex, endIndex);
 
-      // Build festival cards
+      // Create festival cards
       festivalsToShow.forEach((festival) => {
         const card = document.createElement("div");
         card.className = "festival-card";
@@ -1395,7 +1360,7 @@
 
     function renderPagination(totalPages) {
       paginationControls.innerHTML = "";
-      if (totalPages <= 1) return; // no pagination needed
+      if (totalPages <= 1) return; // no pagination needed if only 1 page
 
       // Prev
       const prevBtn = document.createElement("button");
@@ -1405,14 +1370,14 @@
       prevBtn.addEventListener("click", () => {
         if (currentPage > 1) {
           currentPage--;
-          updateURL();
+          updateURLAndStorage();
           renderFestivals();
         }
       });
       paginationControls.appendChild(prevBtn);
 
-      // Page numbers (with ellipses)
-      const pages = getPaginationRange(currentPage, totalPages);
+      // Ellipses
+      const pages = getPaginationRange(currentPage, totalPages, 2);
       pages.forEach((p) => {
         if (p === "...") {
           const ellipsis = document.createElement("button");
@@ -1426,7 +1391,7 @@
           pageBtn.className = "page-button" + (p === currentPage ? " active" : "");
           pageBtn.addEventListener("click", () => {
             currentPage = p;
-            updateURL();
+            updateURLAndStorage();
             renderFestivals();
           });
           paginationControls.appendChild(pageBtn);
@@ -1441,19 +1406,61 @@
       nextBtn.addEventListener("click", () => {
         if (currentPage < totalPages) {
           currentPage++;
-          updateURL();
+          updateURLAndStorage();
           renderFestivals();
         }
       });
       paginationControls.appendChild(nextBtn);
     }
 
-    // Modal
+    // Decide items/page based on viewport
+    function updateFestivalsPerPage() {
+      const width = window.innerWidth;
+      if (width < 768) {
+        festivalsPerPage = 6;
+      } else if (width < 1024) {
+        festivalsPerPage = 9;
+      } else {
+        festivalsPerPage = 12;
+      }
+    }
+
+    function getPaginationRange(current, total, delta = 2) {
+      // smaller delta on tiny screens
+      if (window.innerWidth < 600) {
+        delta = 1;
+      }
+      const pages = [];
+      const c = Math.max(1, Math.min(current, total));
+
+      // Always page 1
+      pages.push(1);
+
+      if (c - delta > 2) {
+        pages.push("...");
+      }
+
+      for (let i = Math.max(2, c - delta); i <= Math.min(total - 1, c + delta); i++) {
+        pages.push(i);
+      }
+
+      if (c + delta < total - 1) {
+        pages.push("...");
+      }
+
+      // Always last page
+      if (total > 1) {
+        pages.push(total);
+      }
+      return pages;
+    }
+
+    // ========== MODAL LOGIC ==========
     function openModal(festival) {
-      modalFestivalName.innerHTML = festival.name;
-      modalMonth.innerHTML = festival.month || "N/A";
-      modalEthnicGroup.innerHTML = festival.ethnicGroup || "N/A";
-      modalLocation.innerHTML = festival.location || "N/A";
+      modalFestivalName.textContent = festival.name;
+      modalMonth.textContent = festival.month || "N/A";
+      modalEthnicGroup.textContent = festival.ethnicGroup || "N/A";
+      modalLocation.textContent = festival.location || "N/A";
       modalDescription.innerHTML = festival.description || "No description available.";
 
       // Images
