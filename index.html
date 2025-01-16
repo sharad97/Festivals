@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nepal Festivals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Nepal’s Festivals & Jatras</h1>
+
+  <!-- Search bar -->
+  <div class="search-container">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search by month, ethnic group, or festival name..."
+    />
+  </div>
+
+  <!-- Festivals list -->
+  <div id="festivalList"></div>
+
+  <!-- Pagination Controls -->
+  <div id="paginationControls"></div>
+
+  <!-- Modal for festival details -->
+  <div id="festivalModal" class="modal">
+    <div class="modal-content">
+      <button id="closeModal" class="close-button">X</button>
+      
+      <h2 id="modalFestivalName"></h2>
+      <p><strong>Month / Timing:</strong> <span id="modalMonth"></span></p>
+      <p><strong>Ethnic Group:</strong> <span id="modalEthnicGroup"></span></p>
+      <p><strong>Location(s):</strong> <span id="modalLocation"></span></p>
+      <div id="modalDescription"></div>
+
+      <!-- Placeholder for images -->
+      <div id="modalImages" class="images-container"></div>
+
+      <!-- Placeholder for videos -->
+      <div id="modalVideos" class="videos-container"></div>
+
+      <button id="modalBackBtn" class="back-button">Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* ========== BASIC STYLES ========== */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* ========== SEARCH ========== */
+    .search-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    #searchInput {
+      width: 80%;
+      max-width: 500px;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    /* ========== FESTIVAL LIST ========== */
+    #festivalList {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 16px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .festival-card {
+      background: #fff;
+      padding: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .festival-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .festival-card h2 {
+      margin: 0 0 8px 0;
+      font-size: 1.2em;
+    }
+
+    /* ========== PAGINATION ========== */
+    #paginationControls {
+      text-align: center;
+      margin: 20px 0;
+      display: flex;
+      flex-wrap: wrap; /* So they can wrap on small screens */
+      gap: 6px;
+      justify-content: center;
+    }
+    .page-button {
+      padding: 6px 12px;
+      border: none;
+      background: #ddd;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .page-button.active {
+      background: #666;
+      color: #fff;
+    }
+    .page-button.disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .ellipsis {
+      background: transparent;
+      border: none;
+      cursor: default;
+    }
+
+    /* ========== MODAL ========== */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; 
+      z-index: 9999; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: auto; 
+      background-color: rgba(0,0,0,0.5);
+    }
+
+    .modal-content {
+      background-color: #fff;
+      margin: 80px auto;
+      padding: 20px;
+      max-width: 800px; /* Widened for large descriptions */
+      position: relative;
+      border-radius: 4px;
+    }
+
+    .close-button {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      font-size: 20px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    .images-container img {
+      max-width: 100%;
+      display: block;
+      margin: 10px 0;
+    }
+
+    .videos-container video {
+      width: 100%;
+      display: block;
+      margin: 10px 0;
+    }
+
+    .back-button {
+      margin-top: 20px;
+      padding: 8px 16px;
+      cursor: pointer;
+      background: #ddd;
+      border: none;
+      border-radius: 4px;
+    }
+
+    /* ========== MOBILE-FRIENDLY ========== */
+    @media (max-width: 600px) {
+      .festival-card {
+        font-size: 14px;
+      }
+      .modal-content {
+        width: 90%;
+      }
+    }

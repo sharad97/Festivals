@@ -1,0 +1,1062 @@
+[
+  {
+    "id": 1,
+    "name": "Maghe Sankranti",
+    "month": "Mid-January (1st day of Magh)",
+    "ethnicGroup": "Nationwide (Hindu communities)",
+    "location": "Nationwide (notably Devghat, Triveni)",
+    "description": {
+      "significance": [
+        "Marks the Sun’s entry into Capricorn, beginning warmer days.",
+        "Symbolically ends the coldest month in hill regions."
+      ],
+      "legendsAndBeliefs": [
+        "Connected to Bhisma Pitamah’s moksha in the Mahabharata.",
+        "Holy bath believed to cleanse sins."
+      ],
+      "ritualsAndObservances": [
+        "Early morning holy bath.",
+        "Family feasts featuring til ko laddu, chaaku, sweet potatoes, yams."
+      ],
+      "foodsAndActivities": [
+        "Sesame (til) sweets for warmth, possible local fairs."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 2,
+    "name": "Shree Panchami (Saraswati Puja)",
+    "month": "January/February",
+    "ethnicGroup": "Nationwide (all communities, especially students)",
+    "location": "Schools, colleges, temples",
+    "description": {
+      "significance": [
+        "Dedicated to Goddess Saraswati, patroness of knowledge, music, arts.",
+        "Auspicious day for learning."
+      ],
+      "ritualsAndObservances": [
+        "Pujas at educational institutions.",
+        "Books and musical instruments placed on the altar.",
+        "Many children learn their first letters (Hate Lakhe)."
+      ],
+      "foodsAndActivities": [
+        "Sweets (sel roti, halwa), cultural programs, poetry recitals."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 3,
+    "name": "Maha Shivaratri",
+    "month": "February/March (Falgun Krishna Chaturdashi)",
+    "ethnicGroup": "Nationwide (Hindu devotees)",
+    "location": "Major celebration at Pashupatinath, Kathmandu",
+    "description": {
+      "significance": [
+        "Honors Lord Shiva, associated with creation and destruction.",
+        "Believed to be Shiva’s wedding night or day of cosmic dance."
+      ],
+      "ritualsAndObservances": [
+        "All-night vigils, fasting or minimal food.",
+        "Bonfires, chanting 'Om Namah Shivaya.'"
+      ],
+      "foodsAndActivities": [
+        "Bhang (cannabis) often consumed as prasad.",
+        "Large pilgrim gatherings at Pashupatinath Temple."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 4,
+    "name": "Holi (Fagu Purnima)",
+    "month": "March (Full Moon of Falgun)",
+    "ethnicGroup": "Nationwide",
+    "location": "Cities, towns, villages across Nepal",
+    "description": {
+      "significance": [
+        "Festival of colors, celebrating the onset of spring.",
+        "Symbolic victory of good over evil (Holika & Prahlad legend)."
+      ],
+      "ritualsAndObservances": [
+        "Throwing colored powders, water balloons.",
+        "Street parties, music, dancing."
+      ],
+      "foodsAndActivities": [
+        "Gujiya (sweet dumplings), local variations in Tarai communities.",
+        "Emphasis on using safe, natural colors."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 5,
+    "name": "Ram Navami",
+    "month": "March/April (Chaitra Shukla Navami)",
+    "ethnicGroup": "Nationwide (Hindu)",
+    "location": "Janakpur (Janaki Temple), throughout Nepal",
+    "description": {
+      "significance": [
+        "Birth anniversary of Lord Rama.",
+        "Tied to the epic Ramayana."
+      ],
+      "ritualsAndObservances": [
+        "Temple visits, Ramayana recitations.",
+        "Some observe a day-long fast.",
+        "Janakpur hosts chariot processions of Rama-Sita idols."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 6,
+    "name": "Chaite Dashain",
+    "month": "March/April (Chaitra)",
+    "ethnicGroup": "Nationwide (Hindu communities)",
+    "location": "Throughout Nepal",
+    "description": {
+      "significance": [
+        "Smaller 'spring' Dashain dedicated to Goddess Durga.",
+        "Less grand but still important for families."
+      ],
+      "rituals": [
+        "Worship at Durga temples, sometimes animal sacrifice.",
+        "Family feasts, gatherings."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 7,
+    "name": "Nepali New Year (Baisakh 1)",
+    "month": "Mid-April",
+    "ethnicGroup": "Nationwide (official start of Bikram Sambat)",
+    "location": "Throughout Nepal",
+    "description": {
+      "significance": [
+        "Marks the start of the Bikram Sambat calendar."
+      ],
+      "ritualsAndObservances": [
+        "Exchanging good wishes, family picnics, temple visits.",
+        "Many buy new clothes."
+      ],
+      "localTieIns": [
+        "Coincides with Bisket Jatra in Bhaktapur."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 8,
+    "name": "Buddha Jayanti",
+    "month": "April/May (Full Moon of Baisakh)",
+    "ethnicGroup": "Nationwide (Buddhist/Hindu), global significance",
+    "location": "Lumbini, Swayambhunath, Boudhanath",
+    "description": {
+      "significance": [
+        "Commemorates the birth, enlightenment, and death of Lord Buddha."
+      ],
+      "ritualsAndObservances": [
+        "Peaceful processions, chanting sutras, lighting butter lamps.",
+        "Charitable acts, free meals (Buddha Bhojan)."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 9,
+    "name": "Mata Tirtha Aunsi (Mother’s Day)",
+    "month": "April/May (New Moon of Baisakh)",
+    "ethnicGroup": "Nationwide",
+    "location": "Mata Tirtha near Kathmandu (pilgrimage), households",
+    "description": {
+      "significance": [
+        "Day to honor mothers (living or deceased)."
+      ],
+      "ritualsAndObservances": [
+        "Gifts, special meals for living mothers.",
+        "Pilgrimage to Mata Tirtha for ancestor rites if mother is deceased."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 10,
+    "name": "Ropain Jatra (Asar 15)",
+    "month": "June/July",
+    "ethnicGroup": "Primarily farming communities (hill regions)",
+    "location": "Rural districts, outskirts of Kathmandu Valley",
+    "description": {
+      "significance": [
+        "Marks the start of rice planting season."
+      ],
+      "ritualsAndObservances": [
+        "Farmers gather in muddy fields, transplant seedlings.",
+        "Singing folk songs, mud-play, and dance."
+      ],
+      "foodTradition": [
+        "Dahi Chiura (curd & beaten rice) to keep cool and energized."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 11,
+    "name": "Nag Panchami",
+    "month": "July/August",
+    "ethnicGroup": "Nationwide (Hindu households)",
+    "location": "Homes, snake temples, water sources",
+    "description": {
+      "significance": [
+        "Worship of serpent deities (Nagas).",
+        "Believed to ensure protection from snakes and water shortages."
+      ],
+      "ritualsAndObservances": [
+        "People paste snake pictures on doorways.",
+        "Offerings of milk/rice to serpent gods."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 12,
+    "name": "Gai Jatra",
+    "month": "August (day after Janai Purnima in Kathmandu Valley)",
+    "ethnicGroup": "Newar communities",
+    "location": "Kathmandu, Bhaktapur, Patan",
+    "description": {
+      "significance": [
+        "Commemorates deceased family members of the past year, guided by a sacred cow.",
+        "Known for comedic street performances to ease grief."
+      ],
+      "ritualsAndObservances": [
+        "Processions of children or cow effigies.",
+        "Satire, cross-dressing, comedic skits."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 13,
+    "name": "Janai Purnima (Raksha Bandhan)",
+    "month": "August (Full Moon)",
+    "ethnicGroup": "Nationwide (Hindu)",
+    "location": "Kumbheshwar Temple (Patan), other temples",
+    "description": {
+      "significance": [
+        "Renewal of the sacred thread (janai).",
+        "Tying raksha bandhan on wrists for protection."
+      ],
+      "ritualsAndObservances": [
+        "Sacred thread changing ceremony.",
+        "Priests tie raksha bandhan on devotees.",
+        "Kwati (mixed bean soup) is a special dish."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 14,
+    "name": "Teej",
+    "month": "August/September",
+    "ethnicGroup": "Hindu women (nationwide)",
+    "location": "Pashupatinath Temple, homes",
+    "description": {
+      "significance": [
+        "Women-centric festival dedicated to Goddess Parvati & Lord Shiva.",
+        "Prayers for marital bliss and husband's well-being."
+      ],
+      "ritualsAndObservances": [
+        "Day-long fast (often no water).",
+        "Singing & dancing in red saris.",
+        "Dar (hearty meal) the night before."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 15,
+    "name": "Father’s Day (Gokarna Aunsi)",
+    "month": "August/September (New Moon of Bhadra)",
+    "ethnicGroup": "Nationwide",
+    "location": "Gokarneshwar Temple (Kathmandu)",
+    "description": {
+      "significance": [
+        "Honors fathers, living or deceased."
+      ],
+      "ritualsAndObservances": [
+        "Gifts, special meals for living fathers.",
+        "Ancestor rites at Gokarneshwar if father is deceased."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 16,
+    "name": "Indra Jatra",
+    "month": "August/September (Bhadra)",
+    "ethnicGroup": "Newar (Kathmandu), city-wide",
+    "location": "Kathmandu (Basantapur, Ason, Indra Chowk)",
+    "description": {
+      "significance": [
+        "Celebrates Indra, the god of rain, and includes Kumari chariot processions."
+      ],
+      "ritualsAndObservances": [
+        "Erection of Yosin (wooden pole).",
+        "Kumari, Bhairav, Ganesh chariot tours.",
+        "Pulukisi (elephant) dance in the streets."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 17,
+    "name": "Dashain (Mohani)",
+    "month": "September/October (Ashwin/Kartik)",
+    "ethnicGroup": "Nationwide (Hindu households)",
+    "location": "All over Nepal",
+    "description": {
+      "significance": [
+        "The grandest Hindu festival, celebrating Goddess Durga’s victory.",
+        "Major family reunions, blessings, feasts."
+      ],
+      "keyDays": [
+        "Ghatasthapana (day 1): Sowing jamara.",
+        "Maha Ashtami & Mahanavami: Intense Durga worship, animal sacrifices in some areas.",
+        "Vijaya Dashami (day 10): Receiving tika & jamara from elders, major travel day.",
+        "Kojagrat Purnima (day 15): Worship of Laxmi, staying awake for prosperity."
+      ],
+      "foodsAndActivities": [
+        "Goat meat (khasi), sel roti, sweets, card games, kite flying."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 18,
+    "name": "Tihar (Deepawali)",
+    "month": "October/November (Kartik)",
+    "ethnicGroup": "Nationwide",
+    "location": "All over Nepal",
+    "description": {
+      "significance": [
+        "“Yamapanchak,” festival of lights honoring various animals, Laxmi, and sibling bond."
+      ],
+      "dayByDay": [
+        "1) Kag Tihar (crows).",
+        "2) Kukur Tihar (dogs).",
+        "3) Gai Tihar & Laxmi Puja (cows, goddess of wealth).",
+        "4) Govardhan Puja / Mha Puja (Newar self-worship).",
+        "5) Bhai Tika (brother-sister)."
+      ],
+      "highlights": [
+        "Sel roti, lights, marigold garlands, Deusi-Bhailo singing."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 19,
+    "name": "Chhath Puja",
+    "month": "October/November",
+    "ethnicGroup": "Tarai communities (Maithili, Tharu)",
+    "location": "Riverbanks in Tarai, also Kathmandu (Bagmati, etc.)",
+    "description": {
+      "significance": [
+        "Dedicated to Surya (Sun God) for health, prosperity.",
+        "Major festival in the Tarai region."
+      ],
+      "outline": [
+        "Nahay Khay, Kharna, Sandhya Arghya, Usha Arghya.",
+        "Devotees fast, offer fruits and sweets to the setting/rising sun."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 20,
+    "name": "Bala Chaturdashi",
+    "month": "November/December (Marga Krishna Chaturdashi)",
+    "ethnicGroup": "Hindu (ancestor remembrance)",
+    "location": "Pashupatinath Temple, Kathmandu",
+    "description": {
+      "significance": [
+        "Scattering of sat biu (seven types of seeds) to honor departed souls."
+      ],
+      "ritualsAndObservances": [
+        "Night-long vigil around Pashupatinath.",
+        "Morning procession scattering seeds at shrines."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 21,
+    "name": "Yomari Punhi",
+    "month": "November/December (Full Moon of Thinla in Nepal Sambat)",
+    "ethnicGroup": "Newar",
+    "location": "Kathmandu Valley (esp. Newar towns)",
+    "description": {
+      "significance": [
+        "Celebrates the end of the rice harvest.",
+        "Honors Goddess Annapurna."
+      ],
+      "ritualsAndObservances": [
+        "Making Yomari (steamed dumplings with sweet fillings).",
+        "House-to-house sharing among neighbors."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 22,
+    "name": "Sonam Lhosar (Tamang New Year)",
+    "month": "January/February",
+    "ethnicGroup": "Tamang communities",
+    "location": "Around Kathmandu & central hills (Tamang settlements)",
+    "description": {
+      "significance": [
+        "Tamang lunar New Year.",
+        "Showcases Tamang heritage with music & dance."
+      ],
+      "keyActivities": [
+        "Tamang Selo with damphu drum.",
+        "Traditional attire, monastery offerings."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 23,
+    "name": "Gyalpo Lhosar (Sherpa/Himalayan New Year)",
+    "month": "February/March",
+    "ethnicGroup": "Sherpa, other Himalayan communities",
+    "location": "Everest region, also Kathmandu",
+    "description": {
+      "significance": [
+        "Marks the Sherpa (and Himalayan) lunar new year.",
+        "Religious observances in monasteries."
+      ],
+      "keyActivities": [
+        "Masked dances (Cham), \"Tashi Delek\" greetings.",
+        "Khapse (fried pastry), butter tea, family gatherings."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 24,
+    "name": "Tamu Lhosar (Gurung New Year)",
+    "month": "December/January",
+    "ethnicGroup": "Gurung (Tamu) communities",
+    "location": "Kaski, Lamjung, Gorkha, Kathmandu events",
+    "description": {
+      "significance": [
+        "Gurung lunar New Year.",
+        "Emphasis on clan unity, ancestor remembrance."
+      ],
+      "celebrations": [
+        "Ghatu dance, rodhi gatherings.",
+        "Feasts with sel roti, achaar, millet bread."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 25,
+    "name": "Ubhauli & Udhauli (Sakela)",
+    "month": "Ubhauli: Apr/May, Udhauli: Nov/Dec",
+    "ethnicGroup": "Kirat (Rai, Limbu, Sunuwar, Yakha)",
+    "location": "Eastern hills",
+    "description": {
+      "significance": [
+        "Seasonal migration celebrations (uphill in summer, downhill in winter).",
+        "Sakela or Sili dances honoring nature & ancestors."
+      ],
+      "rituals": [
+        "Circle dances, wearing ethnic dress.",
+        "Offerings for a bountiful harvest."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 26,
+    "name": "Sita Vivaha Panchami",
+    "month": "November/December (Margashirsha Shukla Panchami)",
+    "ethnicGroup": "Hindu (especially in Mithila region)",
+    "location": "Janakpur",
+    "description": {
+      "significance": [
+        "Re-enacts the wedding of Lord Rama & Goddess Sita."
+      ],
+      "mainObservances": [
+        "Grand procession (barat) from Ram Temple to Janaki Temple.",
+        "Symbolic marriage ceremony at Janaki Temple."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 27,
+    "name": "Gaura Parva",
+    "month": "August/September",
+    "ethnicGroup": "Far Western Nepal (Doti, Dadeldhura, etc.)",
+    "location": "Far West hills",
+    "description": {
+      "significance": [
+        "Dedicated to Goddess Gaura (Parvati), focusing on marital fidelity."
+      ],
+      "ritualsAndObservances": [
+        "Deuda dance in circles.",
+        "Women perform collective pujas, share blessings."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 28,
+    "name": "Chasok Tangnam",
+    "month": "November (Full Moon of Kattik/Mangsir)",
+    "ethnicGroup": "Limbu communities",
+    "location": "Eastern Nepal (Limbu villages)",
+    "description": {
+      "significance": [
+        "Harvest thanksgiving, offering first produce to deities & ancestors."
+      ],
+      "celebrations": [
+        "Chyabrung drum dances, communal feasts.",
+        "Tongba (millet drink) often served."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 29,
+    "name": "Mani Rimdu",
+    "month": "Varies (often Oct/Nov)",
+    "ethnicGroup": "Sherpa, Tibetan Buddhist communities",
+    "location": "Solu-Khumbu (Tengboche, Thame, Chiwong)",
+    "description": {
+      "significance": [
+        "Tibetan Buddhist festival for world peace, removing negative forces."
+      ],
+      "keyElements": [
+        "Sand mandala creation, Wong (empowerment), Cham (masked dances), Fire Puja."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 30,
+    "name": "Tiji Festival",
+    "month": "May (27th–29th day of 3rd Tibetan month)",
+    "ethnicGroup": "Mustang (Lo Manthang)",
+    "location": "Upper Mustang",
+    "description": {
+      "significance": [
+        "Celebrates deity Dorje Jono’s victory over demons causing drought."
+      ],
+      "dayByDayHighlights": [
+        "Masked dances narrate the story of warding off evil, prayers for rains."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 31,
+    "name": "Gunla",
+    "month": "~August/September (Nepal Sambat)",
+    "ethnicGroup": "Newar Buddhist communities",
+    "location": "Kathmandu Valley (Swayambhu, local bahals)",
+    "description": {
+      "significance": [
+        "Sacred month of pilgrimage, reflection, and generosity."
+      ],
+      "observances": [
+        "Early-morning visits to stupas with Gunla baja.",
+        "Fasting, almsgiving, art exhibitions of paubha or manuscripts."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 32,
+    "name": "Seto Machhindranath Jatra",
+    "month": "March/April",
+    "ethnicGroup": "Newar (Kathmandu city)",
+    "location": "Ason, Indra Chowk, Basantapur",
+    "description": {
+      "deitySignificance": [
+        "Seto Machhindranath (Karunamaya) for rain and compassion."
+      ],
+      "rituals": [
+        "Chariot construction and pulling through old city lanes."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 33,
+    "name": "Rato Machhindranath Jatra",
+    "month": "Begins around April/May",
+    "ethnicGroup": "Newar (Patan)",
+    "location": "Patan (Lalitpur)",
+    "description": {
+      "deitySignificance": [
+        "Rato Machhindranath (Bungadya), god of rain and harvest."
+      ],
+      "timelineAndObservances": [
+        "Tall chariot pulled through Patan neighborhoods.",
+        "Bhoto Jatra finale at Jawalakhel (display of jewel-studded vest)."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 34,
+    "name": "Biska (Bisket) Jatra",
+    "month": "Mid-April (coincides with Nepali New Year)",
+    "ethnicGroup": "Newar (Bhaktapur)",
+    "location": "Bhaktapur Durbar Square, Taumadhi Square",
+    "description": {
+      "significance": [
+        "Local new year festival involving legendary serpent tales."
+      ],
+      "keyEvents": [
+        "Chariot tug-of-war for Bhairava & Bhadrakali.",
+        "Erection & lowering of Yoshi (pole) as an omen."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 35,
+    "name": "Bajra Yogini Jatra",
+    "month": "April/May",
+    "ethnicGroup": "Newar (Sankhu area)",
+    "location": "Sankhu, northeast of Kathmandu",
+    "description": {
+      "deitySignificance": [
+        "Tantric Buddhist goddess representing supreme knowledge."
+      ],
+      "ritualsAndObservances": [
+        "Procession carrying the goddess’s image.",
+        "Temple illuminated with butter lamps."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 36,
+    "name": "Pahan Charhe",
+    "month": "March/April (Chaitra/Baisakh)",
+    "ethnicGroup": "Newar communities",
+    "location": "Kathmandu Valley",
+    "description": {
+      "significance": [
+        "Worship of local mother goddesses and protective deities."
+      ],
+      "observances": [
+        "Family feasts, inviting married daughters home.",
+        "Processions with deity replicas and light offerings."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 37,
+    "name": "Pachali Bhairav Jatra",
+    "month": "October/November",
+    "ethnicGroup": "Newar (Kathmandu)",
+    "location": "Pachali Bhairav Temple area",
+    "description": {
+      "deitySignificance": [
+        "A fierce form of Shiva (Bhairav)."
+      ],
+      "celebrations": [
+        "Deity procession, possible animal sacrifices, communal feasts."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 38,
+    "name": "Kartik Naach",
+    "month": "October/November (Kartik)",
+    "ethnicGroup": "Newar (Patan)",
+    "location": "Patan Durbar Square",
+    "description": {
+      "significance": [
+        "Historical dance-drama from Malla era.",
+        "Depicts Hindu mythological tales."
+      ],
+      "performanceDetails": [
+        "Evening shows over several days/weeks.",
+        "Elaborate costumes and narratives."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 39,
+    "name": "Sikali Jatra",
+    "month": "During Dashain (Maha Ashtami/Mahanavami)",
+    "ethnicGroup": "Newar (Khokana, Lalitpur)",
+    "location": "Khokana village",
+    "description": {
+      "significance": [
+        "Locals worship Sikali Mata instead of mainstream Durga forms."
+      ],
+      "uniqueAspects": [
+        "Masked dances in open fields, no animal sacrifices."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 40,
+    "name": "Gathamuga (Gatha: Muga) Chahre",
+    "month": "July/August (before rice planting)",
+    "ethnicGroup": "Newar communities",
+    "location": "Kathmandu Valley",
+    "description": {
+      "significance": [
+        "Driving away malevolent spirits before monsoon."
+      ],
+      "rituals": [
+        "Burning straw effigies at crossroads.",
+        "House cleaning, installing fresh protective charms."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 41,
+    "name": "Matya",
+    "month": "August (day after Gai Jatra in Patan)",
+    "ethnicGroup": "Newar (Patan)",
+    "location": "Patan (Lalitpur)",
+    "description": {
+      "significance": [
+        "A festival of lights commemorating departed ancestors."
+      ],
+      "observances": [
+        "Long barefoot procession, lighting candles/incense at numerous shrines.",
+        "Traditional musical accompaniment."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 42,
+    "name": "Khadga Jatra & Devi Naach",
+    "month": "During Dashain (often Mahanavami)",
+    "ethnicGroup": "Newar (Bhaktapur)",
+    "location": "Bhaktapur",
+    "description": {
+      "significance": [
+        "Display of ancestral swords (khadga).",
+        "Ritual dances for goddesses like Bhadrakali, Mahakali."
+      ],
+      "celebrations": [
+        "Procession of antique swords.",
+        "Devi Naach with costumed dancers blessing the community."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 43,
+    "name": "Siruwa Parwa (Tharu New Year)",
+    "month": "Mid-April (varies), or around Maghe Sankranti for some",
+    "ethnicGroup": "Tharu communities",
+    "location": "Tarai region",
+    "description": {
+      "significance": [
+        "Tharu New Year or harvest festival (depending on subgroup)."
+      ],
+      "ritualsAndObservances": [
+        "Folk dances (jhumra, dhamar), feasts with local produce.",
+        "Exchange of local gifts, produce."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 44,
+    "name": "Ghode Jatra (Tundikhel)",
+    "month": "March/April",
+    "ethnicGroup": "Nationwide (especially Kathmandu)",
+    "location": "Tundikhel, central Kathmandu",
+    "description": {
+      "significance": [
+        "Horse festival to subdue the demon Gurumapa.",
+        "Historically showcased cavalry skills to royals."
+      ],
+      "keyObservances": [
+        "Military parades, horse races, government dignitaries in attendance."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 45,
+    "name": "Khaptad Mela",
+    "month": "July/August (dates vary)",
+    "ethnicGroup": "Pilgrims to Khaptad National Park",
+    "location": "Khaptad region (Far Western Nepal)",
+    "description": {
+      "significance": [
+        "Pilgrimage to Khaptad Baba’s ashram.",
+        "Spiritual renewal in pristine natural setting."
+      ],
+      "activities": [
+        "Treks, setting up camps, morning/evening aarti in the forest meadows."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 46,
+    "name": "Dhan Nach & Chyabrung Nach",
+    "month": "Often during Ubhauli/Udhauli",
+    "ethnicGroup": "Rai & Limbu communities",
+    "location": "Eastern Nepal",
+    "description": {
+      "significance": [
+        "Celebrations of agricultural cycles, reverence for ancestors."
+      ],
+      "danceDetails": [
+        "Dhan Nach (Rai): group sword-like dance steps.",
+        "Chyabrung Nach (Limbu): rhythmic drumming with large chyabrung drums."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 47,
+    "name": "Tila Jatra (Tila Puja)",
+    "month": "Varies in Western Nepal",
+    "ethnicGroup": "Local communities (Dailekh, Surkhet, etc.)",
+    "location": "Mid-West districts",
+    "description": {
+      "significance": [
+        "Thanksgiving to water deities after harvest."
+      ],
+      "observances": [
+        "Prayers at rivers, springs.",
+        "Small fairs with handicrafts and local produce."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 48,
+    "name": "Badadev / Bhadra Mela",
+    "month": "August/September",
+    "ethnicGroup": "Mid- and Far-West communities",
+    "location": "Mid-/Far-West regions",
+    "description": {
+      "significance": [
+        "Honoring local protective deities.",
+        "Often aligns with Gaura Parva."
+      ],
+      "celebrations": [
+        "Folk dances, stalls selling crafts, communal feasts."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 49,
+    "name": "Swasthani Brata Katha (~30 Days)",
+    "month": "January/February",
+    "ethnicGroup": "Hindu (particularly women)",
+    "location": "Nationwide; special significance at Salinadi (Sankhu)",
+    "description": {
+      "significance": [
+        "Devotion to Goddess Swasthani & Lord Shiva.",
+        "Emphasizes marital fidelity, dedication, moral virtues."
+      ],
+      "observances": [
+        "30-day reading of Swasthani Brata Katha.",
+        "Many women fast, break it on the final full moon day."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 50,
+    "name": "Gunla (Month-Long Observance)",
+    "month": "~August/September (Nepal Sambat)",
+    "ethnicGroup": "Newar Buddhists",
+    "location": "Kathmandu Valley (Swayambhu, Boudha, bahals)",
+    "description": {
+      "significance": [
+        "Month-long Buddhist retreat with morning pilgrimages, almsgiving."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 51,
+    "name": "Krishna Janmashtami",
+    "month": "August/September (Bhadra Krishna Ashtami)",
+    "ethnicGroup": "Hindu (Vishnu devotees)",
+    "location": "Nationwide; main temple at Patan (Krishna Mandir)",
+    "description": {
+      "significance": [
+        "Birth of Lord Krishna, 8th avatar of Vishnu."
+      ],
+      "ritualsAndObservances": [
+        "Fasting until midnight, bhajan singing, temple gatherings.",
+        "Midnight celebration distributing sweets."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 52,
+    "name": "Sithi Nakha",
+    "month": "May/June (6th day of bright half of Jestha)",
+    "ethnicGroup": "Newar communities",
+    "location": "Kathmandu Valley (especially wells, ponds)",
+    "description": {
+      "significance": [
+        "Dedicated to Lord Kumar (Kartikeya).",
+        "Day for cleaning wells, ponds before monsoon."
+      ],
+      "activities": [
+        "Well-cleaning, communal efforts for fresh water.",
+        "Cooking wo (lentil pancakes) and other Newar delicacies."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 53,
+    "name": "Ganesh Chaturthi",
+    "month": "August/September (Bhadra Shukla Chaturthi)",
+    "ethnicGroup": "Hindu (Ganesh devotees)",
+    "location": "Ganesh temples nationwide",
+    "description": {
+      "significance": [
+        "Commemorates Lord Ganesh’s birth, remover of obstacles."
+      ],
+      "keyObservances": [
+        "Offerings of modak, laddu, fruits (Ganesh’s favorites).",
+        "Temple visits, chanting Ganesh mantras."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 54,
+    "name": "Nepal Sambat New Year (Mha Puja Day)",
+    "month": "Coincides with Tihar’s 4th day (Mha Puja)",
+    "ethnicGroup": "Newar communities",
+    "location": "Kathmandu Valley",
+    "description": {
+      "significance": [
+        "Marks the start of Newar cultural/lunar calendar (Nepal Sambat).",
+        "Mha Puja: Ritual cleansing, worship of the self."
+      ],
+      "observances": [
+        "Mandalas for each family member, blessings, and feasting."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 55,
+    "name": "Phaguwa / Siruwa Pawai (Tharu Holi)",
+    "month": "Around Holi (Falgun Purnima)",
+    "ethnicGroup": "Tharu communities",
+    "location": "Tarai region",
+    "description": {
+      "significance": [
+        "Tharu version of Holi, celebrating spring with unique cultural flair."
+      ],
+      "rituals": [
+        "Folk dances, drumming, color play.",
+        "Sharing traditional Tharu sweets."
+      ]
+    },
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 56,
+    "name": "Loktantra Diwas, Republic Day, Constitution Day",
+    "month": "Various (Loktantra: Apr 24, Republic: May 28, Constitution: Sep 20)",
+    "ethnicGroup": "Nationwide (political observances)",
+    "location": "Government offices, public squares",
+    "description": {
+      "significance": [
+        "Commemorate Nepal’s key political milestones."
+      ],
+      "howObserved": [
+        "Parades, official speeches, flag hoisting.",
+        "School/college programs on democracy."
+      ]
+    },
+    "images": [],
+    "videos": []
+  }
+]
